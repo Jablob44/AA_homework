@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--Didnt manage to get it to work completely, but i enjoyed playing with html!-->
+    <title>Fettuccine Alfredo</title>
+    <meta charset="UTF-8">
+    <meta name = "description" content="An easy Fettuccine Alfredo recipe inspired by The Office. The recipe was made by Binging with Babish.">
+    <a name = "back-to-top" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+        ga('create', 'UA-12345678-9', 'auto');
+        ga('send', 'pageview');
+      
+      </script>
+      <link rel="stylesheet" href="https://assets.aaonline.io/fullstack/html-css/assets/css_reset.css" type="text/css">
+      <script type="text/javascript" src="rhttps://assets.aaonline.io/fullstack/html-css/assets/external_javascript_example.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src = "https://assets-global.website-files.com/5dcc7f8c449e597ed83356b8/603820afd31232aab368ea6f_New%20Red-logo-emblem.png" width="40" height="40">
+        <nav>
+            <ul>
+                <li><a href="#Ingredients"> Ingredients </a></li>
+                <li><a href="#Directions"> Directions </a></li>
+                <li><a href="#Description"> Description </a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <a name="Ingredients" />
+        <h2>Ingredients</h2>
+        <ul>
+            <li>1 Tbsp + .5 tsp kosher salt, divided</li>
+            <li>1.5  Cups heavy cream, divided</li>
+            <li>2 Tbsp unsalted butter</li>
+            <li>1 tsp freshly ground black pepper</li>
+            <li>9 oz fresh fettuccine pasta</li>
+            <li>2 oz parmesan cheese, grated</li>
+            <li>1/8 tsp freshly grated nutmeg</li>
+        </ul>
+    </aside>
+    <h1>Fettuccine Alfredo</h1>
+    <section>
+        <a name = "Description" />
+        <h2>Description</h2>
+        <p>Looking for a quick 900-calorie carb-binge before your next 5k? Well, we strongly urge you to skip either one of these Fettuccine Alfredo recipes. Maybe give them a try when you’re at home on a rainy day, perhaps in a cozy set of pajamas in front of the fire while listening to some smooth jazz? I don’t know, just a suggestion.
+        </p>
+        <figure>
+            <img src = "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/11/19/1/WU0313H_fettuccine-alfredo-recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1580165741294.jpeg" >
+        </figure>
+        <figcaption>
+            <a href = "https://en.wikipedia.org/wiki/Fettuccine_Alfredo">Wikipedia for Fettuccine Alfredo</a>
+        </figcaption>
+        <a name="Directions" />
+        <h2>Directions</h2>
+        <ol>
+            <li>Bring a large pot of water with 1 tablespoon of salt to a boil.</li>
+            <li>Meanwhile, add 1 cup heavy cream and the butter to a large skillet. Melt over medium-low heat and allow the mixture to reduce by one third, about 5-10 minutes.</li>
+            <li>Once the sauce is reduced, turn the heat off and add the remaining 1/2 cup of heavy cream to the skillet. Season with the remaining salt and pepper.</li>
+            <li>Add the pasta to the boiling water. Cook according to the manufacturer's directions for al dente pasta, about 2-3 minutes.</li>
+            <li>Transfer the cooked pasta directly into the skillet with the heavy cream sauce. Reserve the pasta water.</li>
+            <li>Turn the heat to low and add the parmesan and nutmeg to the pasta. Cook the pasta and sauce for about 1-2 minutes, stirring with tongs, until the cheese is melted.</li>
+            <li>Add about 1/4 cup of the reserved pasta water to the sauce. Once again, stir with the tongs until the sauce is glossy and coats the pasta. </li>
+            <li>Serve immediately.</li>
+        </ol>
+    </section>
+    <section id="reviews">
+        <form id="review-form">
+            <label for = "Name" id="Name">Name</label>
+            <input type="text" id="Name" name="Name">
+            <br>
+            <label for = "Rating" id ="Rating">Rating
+                <input type="radio" id="Rating" value="1" checked>1
+                <input type="radio" id="Rating" value="2">2
+                <input type="radio" id="Rating" value="3">3
+                <input type="radio" id="Rating" value="4">4
+                <input type="radio" id="Rating" value="5">5
+            </label>
+            <br>
+            <label for="Cooking Expertise" id = "Cooking Expertise"> Cooking Expertise
+                <select>
+                    <option name="Select Cooking Expertise" disabled selected>Select Cooking Expertise</option>
+                    <option name="Sometimes Cook">Sometimes Cook</option>
+                    <option name="Cook Everyday">Cook Everyday</option>
+                    <option name="Cooking is a hobby">Cooking is a hobby</option>
+                    <option name="Professional Chef">Professional Chef</option>
+                </select>
+            </label>
+            <br>
+            <label>Review
+                <br>
+                <textarea name="Review" id="Review" cols="40" rows="40"> </textarea>
+            </label>
+            <button type="submit">Submit Review</button>
+            <!-- <select name="" id=""></select> -->
+        </form>
+    </section>
+    <footer>
+        <p>
+            Original recipe is from Binging With Babish!
+        </p>
+        <a href = "https://www.bingingwithbabish.com/recipes/fettuccine-alfredo-the-office">Original recipe link</a>
+    </footer>
+    <br>
+    <a href="#back-to-top"> Back to top </a>
+</body>
+</html>
