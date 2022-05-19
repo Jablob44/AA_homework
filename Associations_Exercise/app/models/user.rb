@@ -7,6 +7,6 @@ class User < ApplicationRecord
 
          has_many :course,
             through: :enrollment,
-            source: :course
+            source: :course.
          
 end
