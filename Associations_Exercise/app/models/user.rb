@@ -1,6 +1,6 @@
 class User < ApplicationRecord
 
-    belongs_to :enrollments,
+    has_many :enrollments,
         primary_key: :id,
         foreign_key: :student_id,
         class_name: :Enrollment
