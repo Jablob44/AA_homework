@@ -57,5 +57,5 @@ function addNumbers(sum = 0, numsLeft, completionCallback) {
     completionCallback(sum);
   };
 }
-
-addNumbers(0, 3, sum => console.log(`Total Sum: ${sum}`));
+//jacobs change
+addNumbers(0, 4, sum => console.log(`Total Sum: ${sum}`));
