@@ -58,4 +58,5 @@ function addNumbers(sum = 0, numsLeft, completionCallback) {
   };
 }
 
-addNumbers(0, 3, sum => console.log(`Total Sum: ${sum}`));
+addNumbers(0, 7, sum => console.log(`Total Sum: ${sum}`));
+// Alan's change
